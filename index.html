@@ -59,6 +59,146 @@ var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function
 :where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
 .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
 </style>
+
+
+
+
+
+
+
+</style>
+
+<!-- Paleta cálida romántica multi-tono -->
+<style id="custom-colors">
+  :root {
+    --color-fondo: #fff8f5;        /* fondo durazno claro */
+    --color-titulo: #b55a4a;       /* terracota rosado */
+    --color-acento: #c86b63;       /* acento coral */
+    --color-texto: #4b3a36;        /* marrón grisáceo */
+    --color-gris: #ffffff;         /* gris suave */
+    --color-oscuro: #2b2b2b;       /* gris oscuro para contraste */
+  }
+
+  body {
+    background: linear-gradient(180deg, #fff8f5 0%, #fbe6df 100%) !important;
+    color: var(--color-texto) !important;
+    font-family: "Cinzel", serif;
+  }
+
+  h1, h2, h3, h4, h5, h6, .elementor-heading-title {
+    color: var(--color-titulo) !important;
+    font-family: "Great Vibes", cursive;
+  }
+
+  p, span, li {
+    color: var(--color-texto) !important;
+  }
+
+  a {
+    color: var(--color-acento) !important;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: var(--color-titulo) !important;
+  }
+
+  /* Botones */
+  .btn, button, input[type="submit"], .gform_button {
+    background-color: var(--color-titulo) !important;
+    color: #fff !important;
+    border: none;
+    border-radius: 8px !important;
+    transition: 0.3s;
+  }
+
+  .btn:hover, button:hover, input[type="submit"]:hover {
+    background-color: var(--color-acento) !important;
+  }
+
+  /* Textos o detalles en gris */
+  small, .elementor-icon, .elementor-widget-heading span {
+    color: var(--color-gris) !important;
+  }
+
+  /* Líneas o divisores */
+  hr, .divider, .elementor-divider {
+    border-color: var(--color-gris) !important;
+  }
+
+
+
+
+
+
+  
+/* === Corrige color del símbolo † (cruz) === */
+.elementor-heading-title span {
+  color: #b55a4a !important; /* dorado elegante visible */
+}
+
+
+
+
+
+
+/* === Corrige líneas azules en "Sábado" y "2026" === */
+.elementor-element-2fa8a6f3 .elementor-heading-title::before,
+.elementor-element-2fa8a6f3 .elementor-heading-title::after,
+.elementor-element-7fe93a4b .elementor-heading-title::before,
+.elementor-element-7fe93a4b .elementor-heading-title::after {
+  background-color: #b97a3c !important; /* dorado oscuro */
+  border-color: #b97a3c !important;
+}
+
+/* === Botón VER MAPA: dorado oscuro, texto blanco === */
+.elementor-button {
+  background-color: #b97a3c !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 10px 25px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+  box-shadow: none !important;
+}
+
+/* Hover del botón */
+.elementor-button:hover {
+  background-color: #cfa66a !important; /* dorado más claro al pasar el mouse */
+  color: #2b2b2b !important;
+}
+
+/* Texto dentro del botón */
+.elementor-button-text {
+  color: #ffffff !important;
+}
+
+/* === Elimina línea decorativa debajo del botón === */
+.elementor-widget-button + .elementor-widget-divider,
+.elementor-element-ed6aeab + .elementor-widget-divider,
+.elementor-element-ed6aeab::after,
+.elementor-element-ed6aeab::before {
+  display: none !important;
+  border: none !important;
+  background: none !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+	
+</style>
  <link rel="stylesheet" id="rs-plugin-settings-css" href="https://nuestraboda.love/ManuelySofia/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.3.9" media="all">
     <style id="rs-plugin-settings-inline-css">
     #rs-demo-id {}
@@ -1681,6 +1821,7 @@ body {
 
 
 </body></html>
+
 
 
 
